@@ -38,14 +38,16 @@
 ## 四、安装
 
 ```bash
-# Trae（项目级）
-mkdir -p .trae/skills && cp -r <本仓库>/.trae/skills/final-exam-week-5days .trae/skills/
+git clone https://github.com/wukong22lzc/final-exam-week-king.git
 
-# Trae（用户级，所有项目可用）
-mkdir -p ~/.trae/skills && cp -r <本仓库>/.trae/skills/final-exam-week-5days ~/.trae/skills/
+# Trae（用户级，推荐）
+mkdir -p ~/.trae/skills && cp -r final-exam-week-king/.trae/skills/final-exam-week-5days ~/.trae/skills/
 
 # Claude Code
-mkdir -p ~/.claude/skills && cp -r <本仓库>/.trae/skills/final-exam-week-5days ~/.claude/skills/
+mkdir -p ~/.claude/skills && cp -r final-exam-week-king/.trae/skills/final-exam-week-5days ~/.claude/skills/
+
+# Trae（项目级）：在你的课程项目根目录执行
+mkdir -p .trae/skills && cp -r /path/to/final-exam-week-king/.trae/skills/final-exam-week-5days .trae/skills/
 ```
 
 安装后确认目录里存在 `SKILL.md`，重启客户端即可。
