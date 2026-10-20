@@ -1,15 +1,18 @@
-# 5-DAYS Express Final Exam Week ｜ 期末周的王
+# 期末周的王：5天-快速-期末考试周
 
-一个可安装到本地 AI 的期末周冲刺技能。导入课程课件、教材信息和你自己的想法，一次产出：资料清单、复习资料 PDF、pre PPT、课程论文内容、视频脚本 / 实践方案等 Word 文档。
+![封面](assets/cover.png)
 
-适用于支持 `SKILL.md` 的本地 AI 客户端（Trae、Claude Code、Cursor 等），装好即用，不上传任何第三方服务器。
+5-DAYS Express Final Exam Week ｜ 一个可安装到本地 AI 的期末周冲刺技能。
+
+导入课程课件、教材信息和你自己的想法，一次产出：资料清单、复习资料 PDF、pre PPT、课程论文内容、视频脚本 / 实践方案等 Word 文档。适用于支持 `SKILL.md` 的本地 AI 客户端（Trae、Claude Code、Cursor 等），装好即用，不上传任何第三方服务器。
 
 ---
 
 ## 一、它解决什么问题
 
-期末只剩五天，手上有：老师的课件、一本没怎么翻的教材、一个模糊的论文 idea、一个还没开始的 pre。
-缺的是：考什么、先做哪个、怎么在截止前交得出去。
+期末只剩五天！手上有：老师的课件、一本没怎么翻的教材、一个模糊的论文 idea、一个还没开始的 pre。
+
+考什么、先做哪个、怎么在截止前交得出去，全都不知道，只能焦虑地玩手机……
 
 这个技能按「建档 → 补料 → 考点地图 → 产出 → 质检」五步推进，并给出可执行的 5 天 / 3 天 / 24 小时计划。
 
@@ -75,6 +78,9 @@ mkdir -p ~/.claude/skills && cp -r <本仓库>/.trae/skills/final-exam-week-5day
 ```text
 .
 ├── README.md
+├── assets/
+│   ├── cover.png                 # 封面图
+│   └── feature-long.png          # 说明长图（自媒体用）
 ├── examples/
 │   └── demo-comm101/            # 完整示例（虚构课程，含 PDF / PPTX / DOCX）
 └── .trae/skills/final-exam-week-5days/
@@ -86,14 +92,12 @@ mkdir -p ~/.claude/skills && cp -r <本仓库>/.trae/skills/final-exam-week-5day
         └── integrity.md          # 引用、查重、隐私、越界请求处理
 ```
 
-## 七、发布与收费建议
+## 七、发布与交付
 
-1. GitHub 建仓库，把本目录整体推上去；打 tag `v1.0.0`，在 Releases 里附一个 zip。
-2. 付费交付两种做法：
-   - **公开仓库 + 付费文档**：仓库放介绍与更新日志，完整技能包作为付费附件 / 私有仓库邀请。
-   - **私有仓库 + 授权码**：购买后邀请协作者，或发 zip + 一对一安装指导。
-3. 自媒体侧重点：发「真实使用案例」比发功能清单转化高——用一门具体的课，展示输入与最终产出对比。
-4. 授权建议：允许个人自用、禁止转售与二次分发；商用需单独授权。仓库里放一个 `LICENSE` 说明清楚。
+- 仓库：`github.com/wukong22lzc/final-exam-week-king`
+- 版本：`v1.0.0`，Release 附安装 zip
+- 公开仓库用于展示与引流；付费 zip 可放在知识付费平台交付
+- 授权建议：允许个人自用，禁止转售与二次分发；商用需单独授权
 
 ## 八、合规声明
 
